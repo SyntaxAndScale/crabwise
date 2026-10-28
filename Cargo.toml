@@ -1,0 +1,11 @@
+[package]
+name = "cargo-crabwise"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cargo-lock = "11.1.0"
+csv = "1.4.0"
+flate2 = "1.1.10"
+reqwest = {version = "0.13.5", features = ["blocking"]}
+tar = "0.4.46"
