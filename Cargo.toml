@@ -1,10 +1,18 @@
 [package]
 name = "cargo-crabwise"
-version = "0.1.0"
+version = "0.0.1"
 edition = "2024"
+authors = ["Syntax and Scale LLC <contact@syntaxandscale.com>"]
+description = "A CLI to assess value and risk of crate dependencies"
+homepage = "https://github.com/SyntaxAndScale/crabwise"
+repository = "https://github.com/SyntaxAndScale/crabwise"
+readme = "README.md"
+keywords = ["rust", "cli"]
+categories = ["command-line-utilities"]
 
 [dependencies]
 cargo-lock = "11.1.0"
+comfy-table = "8.0.1"
 csv = "1.4.0"
 flate2 = "1.1.10"
 reqwest = {version = "0.13.5", features = ["blocking"]}
